@@ -81,6 +81,6 @@ span{
 /* media query */
 @media (max-width: 375px){
     .container{
-        max-width: 100%;
+        max-width: 100vw;
     }
 }
