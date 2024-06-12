@@ -3,9 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
 body{
     font-family: "Figtree", sans-serif;
-    width: 1440px;
+    max-width: 1440px;
     background-color: hsl(47, 88%, 63%);
     min-height: 100vh;
     display: flex;
@@ -78,12 +81,11 @@ span{
     justify-content: center;
     top: 10px;
 }
+
+
 /* media query */
 @media (max-width: 375px){
-    body{
-        max-width: 375px;
-    }
     .container{
-        width: 100%;
+        width: 90%;
     }
 }
